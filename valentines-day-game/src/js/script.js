@@ -73,6 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const placedPieces = puzzleBoard.querySelectorAll('.puzzle-piece');
         if (placedPieces.length === 9) {
             completionMessage.classList.remove('hidden');
+            completionMessage.textContent = "Congratulations! You completed the puzzle! Wishing you a day filled with love and happiness!";
         }
     }
 });
